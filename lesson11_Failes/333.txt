@@ -1,0 +1,6 @@
+python
+2
+java
+6
+study
+3

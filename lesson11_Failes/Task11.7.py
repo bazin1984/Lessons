@@ -1,0 +1,17 @@
+# f = open(r"D:\urokipython\Someself\new.txt" , "r" )
+# print(f.read())
+# f.close()
+import os
+# os.mkdir("New")
+# os.rename("Task" , "111")
+# print(os.getcwd())
+# os.chdir("New")
+print(os.getcwd())
+with open("New1.txt" , "w+") as n :
+    n.write("Hello World")
+    print(n.read())
+print(os.getcwd())
+# os.makedirs("1")
+print(os.getcwd())
+# os.remove(r"D:\urokipython\lesson11_Failes\New\New1.txt")
+os.rmdir("New")
