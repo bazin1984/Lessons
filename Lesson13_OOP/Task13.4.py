@@ -34,6 +34,7 @@ class Example() :
             else:
                 return b
 
+
 for_example = Example()
 # print(for_example.func_1())
 

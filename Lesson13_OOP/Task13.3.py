@@ -1,7 +1,7 @@
 # Калькулятор.
 # Создайте класс, где реализованы функции(методы) математических операций. А также функция, для ввод данных.
 
-class calc :
+class Calc :
     def __init__(self):
         self.func4()
 
@@ -29,7 +29,7 @@ while True :
         print("Это был простейший калькулятор, до свидания и до новых встреч!!!")
         break
     else:
-        example = calc()
+        example = Calc()
         n = input("Введите знак + . / . - , * ")
         if n == "+" :
             print(example.summ())
@@ -41,7 +41,3 @@ while True :
             print(example.delen())
         if n not in ["/","*","-","+"] :
             print("Error")
-
-
-
-
