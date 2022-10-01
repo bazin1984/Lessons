@@ -7,5 +7,7 @@ def decor_pow(func) :
 def f(x) :
     return x
 
-print(f(9,0.5))
+print(f( int(input("Введите число    ")) , int(input("Введите степень     "))))
+
+
 
